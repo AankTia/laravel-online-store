@@ -238,6 +238,18 @@ php artisan migrate
 
 ## Chapter 12 – Product Model
 
+### Eloquent
+
+**Eloquent** is a Laravel object-relation mapper (ORM) that makes it easy to interact with database. When using Eloquent, each database table corresponding _Model_ used to interact with the table. Eloquent models allow to insert, retrieve, update, and delete records from the database table.
+
+### Creating Product Model
+
+```bash
+php artisan make:model Product
+```
+
+---
+
 ## Chapter 13 – List Products with Database Data
 
 ## Chapter 14 – Refactoring List Products
