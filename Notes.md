@@ -252,7 +252,15 @@ php artisan make:model Product
 
 ## Chapter 13 – List Products with Database Data
 
+...
+
+---
+
 ## Chapter 14 – Refactoring List Products
+
+...
+
+---
 
 ## Chapter 15 – Admin Panel
 
