@@ -16,14 +16,12 @@ class HomeController extends Controller
 
     public function about()
     {
-        $data1 = "About us - Online Store";
-        $data2 = "About us";
-        $description = "This is an about page...";
-        $author = "by Tia Widi";
+        $viewData = [];
+        $viewData["title"] = "About us - Online Store";
+        $viewData["subtitle"] = "About us";
+        $viewData["description"] = "This is an about page...";
+        $viewData["author"] = "by Tia Widi";
 
-        return view('home.about')->with("title", $data1)
-            ->with("subtitle", $data2)
-            ->with("description", $description)
-            ->with("author", $author);
+        return view('home.about')->with("viewData", $viewData);
     }
 }
