@@ -19,9 +19,10 @@ class ProductController extends Controller
     public function show($id)
     {
         $viewData = [];
-        $viewData["title"] = "Products - Online Store";
-        $viewData["subtitle"] = "List of Products";
-        $viewData["product"] = Product::findOrFail($id);
+        $product = Product::findOrFail($id);
+        $viewData["title"] = $product->getName() . " - Online Store";
+        $viewData["subtitle"] = $product->getName() . " - Product Infromation";
+        $viewData["product"] = $product;
 
         return view('product.show')->with("viewData", $viewData);
     }
