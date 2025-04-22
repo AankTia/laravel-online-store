@@ -76,19 +76,19 @@ The Online Store implemented with:
 
 This pattern divides the application into three interconnected elements:
 
-- **_Model_**
+-   **_Model_**
 
-    Contains the business logic of the application. 
-    
+    Contains the business logic of the application.
+
     For example, the Online Store application product data and its functions.
 
-- **_View_**
+-   **_View_**
 
     Contains the application's user interfacse.
 
     For example, a view to register products or users.
 
-- **_Controller_**
+-   **_Controller_**
 
     Acts as an interface between model and view elements.
 
@@ -128,7 +128,14 @@ The same view, but with Blade directives:
 
 ## Chapter 06 – Index and About Pages
 
-...
+## Laravel Routing
+
+Laravel routing is a mechanism used to route all application requests to specific methods of functions which will deal with those specific requests. Laravel routes accept a URI _(Uniform Resource Identifier)_ along with a closure. Closures are PHP's version of anonymous functions. A closure is a function can pass around as an object, assign to a variable, or pass a parameter to other functions and methods.
+
+Laravel routes are defined in route file (located in the _routes_ directory).
+
+-   **_rutes/web.php_** -- Defines routes for web interface.
+-   **_routes/api.php_** -- Define routes for API.
 
 ---
 
