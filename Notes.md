@@ -141,6 +141,10 @@ Laravel routes are defined in route file (located in the _routes_ directory).
 
 ## Chapter 07 – Refactoring Index and About Pages
 
+...
+
+---
+
 ## Chapter 08 – Use of a Coding Standard
 
 ## Chapter 09 – List Products with Dummy Data
