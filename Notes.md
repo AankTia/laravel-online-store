@@ -208,12 +208,25 @@ Ti automatically fix it, execute PHP_CodeSniffer `phpcbf`
 
 ## Chapter 09 – List Products with Dummy Data
 
+...
 
 ---
 
-## Chapter 10 – Configuration of MySQL Database
+## Chapter 10 – Configuration of MySQL 
+
+...
+
+---
 
 ## Chapter 11 – Product Migration
+
+### Product migration
+
+```bash
+php artisan make:migration create_products_table
+```
+
+---
 
 ## Chapter 12 – Product Model
 
