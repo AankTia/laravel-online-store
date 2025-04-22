@@ -49,7 +49,26 @@ The Online Store implemented with:
 -   Bootstrap (CSS framework)
 -   Blade (a Laravel templating system)
 
+---
+
 ## Chapter 03 – Introduction to Laravel and Installation
+
+### Laravel Project Structure
+
+|                          |                                                                                                                                                                                                                                               |
+| ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **app/Http/Controllers** | Place the app controllers                                                                                                                                                                                                                     |
+| **app/Models**           | Place the app models                                                                                                                                                                                                                          |
+| **database/migrations**  | Place for app's database schema definition                                                                                                                                                                                                    |
+| **public/\***            | Place for CSS, Javacript, and images file. Also contaiins he `index.php` file, which is the entry point to the application                                                                                                                    |
+| **resources/views/\***   | Place for app views.                                                                                                                                                                                                                          |
+| **routes/web.php**       | Contain all the route definitions for the web application.                                                                                                                                                                                    |
+| **storage/app/public**   | Place for store the user-generated files, such as product images, that should be publicly accessible                                                                                                                                          |
+| **vendor/\***            | Contains all libraries downloaded from Composer. The libraries/dependencies are listed in the `composer.json` file.                                                                                                                           |
+| **.env**                 | Contains some common fonfiguration values that may differ based on whether application is running locally or on production web server. It includes information such as database name, database username, and database password, among others. |
+| **composer.json**        | Holds metadata relevant to the project and manages he project's dependencies, script, version, and many more                                                                                                                                  |
+
+---
 
 ## Chapter 04 – Introduction to MVC applications
 
