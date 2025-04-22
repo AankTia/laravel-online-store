@@ -147,6 +147,65 @@ Laravel routes are defined in route file (located in the _routes_ directory).
 
 ## Chapter 08 – Use of a Coding Standard
 
+...
+
+A **Coding standard** is a set of rules and agreements used when writing source code in a particular programming language. Using a coding standard provides some adventages, such as:
+
+-   It gives a uniform appearance to the code written by different programmers.
+-   It improves the readability and mantainability of the code and reduce complexity.
+-   It helps in code and helps to detect errors easily.
+-   It promotes good rogramming practice and increases the eddiciency of the programmers.
+
+One of the most used PHP coding standards is _[PSR-2](https://www.php-fig.org/psr/psr-2/)_. It is a standard established by PHP-FIG (PHP Framework Interop Group).
+
+Some tools help programmers to automatically check their code against these coding standard.
+
+### `PHP_CodeSniffer`
+
+[`PHP_CodeSniffer`](https://github.com/squizlabs/PHP_CodeSniffer) is a set of two PHP scripts:
+
+-   The `phpcs` script tokenizea PHP, Javascript, and CSS file to detect violations based on a defined coding standard.
+-   The `phpcbf` script automatically corrects coding standard violations.
+
+[`PHP_CodeSniffer`](https://github.com/squizlabs/PHP_CodeSniffer) is an essential development tool that ensures our code remains clean and consistent.
+
+#### Installing `PHP_CodeSniffer`
+
+```bash
+composer require --dev squizlabs/php_codesniffer
+```
+
+#### Configuring `PHP_CodeSniffer`
+
+Create a new file with name `phpcs.xml`:
+
+```xml
+<?xml version="1.0"?>
+<ruleset name="PHP_CodeSniffer">
+    <description>The coding standard for the Online Store project</description>
+    <rule ref="PSR2"/>
+    <file>app/</file>
+    <file>config/</file>
+    <file>database/</file>
+    <file>routes/</file>
+    <exclude-pattern>*/migrations/*</exclude-pattern>
+</ruleset>
+```
+
+#### Running `PHP_CodeSniffer`
+
+```bash
+./vendor/bin/phpcs
+```
+
+Ti automatically fix it, execute PHP_CodeSniffer `phpcbf`
+
+```bash
+./vendor/bin/phpcbf
+```
+
+---
+
 ## Chapter 09 – List Products with Dummy Data
 
 ## Chapter 10 – Configuration of MySQL Database
