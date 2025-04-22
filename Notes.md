@@ -72,6 +72,30 @@ The Online Store implemented with:
 
 ## Chapter 04 – Introduction to MVC applications
 
+**Model-View-Controller (MVC)** is a software architectureal pattern commonly used to develop web applications containing user interfaces.
+
+This pattern divides the application into three interconnected elements:
+
+- **_Model_**
+
+    Contains the business logic of the application. 
+    
+    For example, the Online Store application product data and its functions.
+
+- **_View_**
+
+    Contains the application's user interfacse.
+
+    For example, a view to register products or users.
+
+- **_Controller_**
+
+    Acts as an interface between model and view elements.
+
+    For example, a product controller collects information a _create product_ view and pass it to the product model to be stored in the database.
+
+---
+
 ## Chapter 05 – Layout View
 
 ## Chapter 06 – Index and About Pages
