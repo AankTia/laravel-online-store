@@ -98,6 +98,32 @@ This pattern divides the application into three interconnected elements:
 
 ## Chapter 05 – Layout View
 
+### Blade
+
+**Blade** is templating engine that is included with Laravel. Blade template file use the `.blade.php` file extension and are typically stored in the `resources/views` directory.
+
+In blade file, we will have a mix of HTML code with Blade directives and Blade elements. Blade directives are convienment shortcut for common PHP control structures, such as conditional statements and loops.
+
+For example, the following code shows an excerpt of a simple view in Laravel using plain PHP:
+
+```php
+<?php if($records >0) { ?>
+    I have records!
+<?php } else { ?>
+    I dont have any records!
+<?php } ?>
+```
+
+The same view, but with Blade directives:
+
+```php
+@if(count($records) > 0)
+    I have records!
+@else
+    I dont have any records!
+@endif
+```
+
 ## Chapter 06 – Index and About Pages
 
 ## Chapter 07 – Refactoring Index and About Pages
