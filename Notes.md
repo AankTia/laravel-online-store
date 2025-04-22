@@ -222,8 +222,16 @@ Ti automatically fix it, execute PHP_CodeSniffer `phpcbf`
 
 ### Product migration
 
+Create Product Migration:
+
 ```bash
 php artisan make:migration create_products_table
+```
+
+Execute the migrations
+
+```bash
+php artisan migrate
 ```
 
 ---
