@@ -124,7 +124,13 @@ The same view, but with Blade directives:
 @endif
 ```
 
+---
+
 ## Chapter 06 – Index and About Pages
+
+...
+
+---
 
 ## Chapter 07 – Refactoring Index and About Pages
 
