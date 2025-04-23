@@ -13,7 +13,8 @@ class Product extends Model
         'image'
     ];
 
-    public static function validate($request) {
+    public static function validate($request)
+    {
         $request->validate([
             "name" => "required|max:255",
             "description" => "required",
@@ -94,5 +95,15 @@ class Product extends Model
     public function setUpdatedAt($updatedAt)
     {
         return $this->attributes['updated_at'] = $updatedAt;
+    }
+
+    public static function sumPriceByQuantities($products, $productsInSession)
+    {
+        $total = 0;
+        foreach ($products as $product) {
+            $total = $total + ($product->getPrice() * $productsInSession[$product->getId()]);
+        }
+
+        return $total;
     }
 }

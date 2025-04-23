@@ -14,7 +14,20 @@
                 </h5>
                 <p class="card-text">{{ $viewData["product"]->getDescription() }}</p>
                 <p class="card-text">
-                    <small class="text-mited">Add to Cart</small>
+                    <form action="{{ route('cart.add', ['id' => $viewData['product']->getId()]) }}" method="POST">
+                        @csrf
+                        <div class="row">
+                            <div class="col-auto">
+                                <div class="input-group call-auto">
+                                    <div class="input-group-text">Quantity</div>
+                                    <input type="number" name="quantity" id="quantity" min="1" max="10" value="1" class="form-control quantity-input">
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <button class="btn bg-primary text-white" type="submit">Add to cart</button>
+                            </div>
+                        </div>
+                    </form>
                 </p>
             </div>
         </div>

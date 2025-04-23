@@ -383,6 +383,10 @@ After created middleware, we will need to register middleware in our application
 
 ## Chapter 24 – Introduction to Web Session
 
+...
+
+---
+
 ## Chapter 25 – Shopping Cart
 
 ## Chapter 26 – Orders and Items
