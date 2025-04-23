@@ -407,7 +407,11 @@ After created middleware, we will need to register middleware in our application
 
 ## Chapter 28 – Orders Page
 
-...
+### Lazy loading and eager loading
+
+The use Eloquent relationship has a silent cost. The related models are **_lazy loaded_** when we access Eloquent relationships as attributes. It means the ralationship data is not loaded untul you first access the attribute. It presents an important issue. lazy loading affect application performance.
+
+Fortunetaly, Eloquent can reduce the number of queries and **_eager load_** relationships using the `with` method.
 
 ---
 
