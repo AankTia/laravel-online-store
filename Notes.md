@@ -389,7 +389,15 @@ After created middleware, we will need to register middleware in our application
 
 ## Chapter 25 – Shopping Cart
 
+...
+
+---
+
 ## Chapter 26 – Orders and Items
+
+...
+
+---
 
 ## Chapter 27 – Product Purchase
 

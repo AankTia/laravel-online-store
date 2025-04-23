@@ -106,4 +106,19 @@ class Product extends Model
 
         return $total;
     }
+
+    public function items()
+    {
+        return $this->hasMany(Item::class);
+    }
+
+    public function getItems()
+    {
+        return $this->items;
+    }
+    
+    public function setItems($items)
+    {
+        $this->items = $items;
+    }
 }
