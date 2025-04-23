@@ -296,7 +296,15 @@ php artisan storage:link
 
 ## Chapter 19 – Edit and Delete Products
 
+...
+
+---
+
 ## Chapter 20 – Refactoring Validations
+
+...
+
+---
 
 ## Chapter 21 – Login System
 
