@@ -401,6 +401,10 @@ After created middleware, we will need to register middleware in our application
 
 ## Chapter 27 – Product Purchase
 
+...
+
+---
+
 ## Chapter 28 – Orders Page
 
 ## Chapter 29 – Deploying to the Cloud – Clever-Cloud – MySQL Database
