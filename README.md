@@ -4,43 +4,22 @@
 <!-- ![Stars](https://img.shields.io/github/stars/AankTia/laravel-online-store) -->
 <!-- ![Forks](https://img.shields.io/github/forks/AankTia/laravel-online-store) -->
 
-Web application where users place orders to buy products with Laravel, contains hands-on projects and exercises completed while studying **_[Practical Laravel – Develop Clean MVC Web Applications (Daniel Correa & Paola Vallejo)](https://www.amazon.com/Practical-Laravel-Develop-clean-applications/dp/B09S69MHRB)_**. 
+Web application where users place orders to buy products with Laravel, contains hands-on projects and exercises completed while studying **_[Practical Laravel – Develop Clean MVC Web Applications (Daniel Correa & Paola Vallejo)](https://www.amazon.com/Practical-Laravel-Develop-clean-applications/dp/B09S69MHRB)_**.
 
 It showcases practical implementation of Laravel features including routing, controllers, Eloquent ORM, Blade templating, form handling, validation, and more. Ideal for reinforcing foundational Laravel skills and MVC application structure.
 
 ## Features / Application Scope
 
--   **_Home Page_**
-
-    Display a welcome message and some images.
-
--   **_About Page_**
-
-    Display information about the online store and developers.
-
--   **_Product Page_**
-
-    Display the availale products information. In adition, can click on a specific product and see information.
-
--   **_Cart Page_**
-
-    Display the products added to the cart and the total price to be paid. In addition, a user can remove products from the cart and make purchases.
-
--   **_Login Page_**
-
-    Display a from to allow users to log in to the application.
-
--   **_Register Page_**
-
-    Display a form to allow users to sign up for accounts.
-
--   **_My Orders Page_**
-
-    Display the orders placed by the logged in user.
-
--   **_Admin Panel_**
-
-    Contain sections to manage stores's products (create, update, delete and list them).
+|                      |                                                                                                                                                  |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **_Home Page_**      | Display a welcome message and some images.                                                                                                       |
+| **_About Page_**     | Display information about the online store and developers.                                                                                       |
+| **_Product Page_**   | Display the availale products information. In adition, can click on a specific product and see information.                                      |
+| **_Cart Page_**      | Display the products added to the cart and the total price to be paid. In addition, a user can remove products from the cart and make purchases. |
+| **_Login Page_**     | Display a from to allow users to log in to the application.                                                                                      |
+| **_Register Page_**  | Display a form to allow users to sign up for accounts.                                                                                           |
+| **_My Orders Page_** | Display the orders placed by the logged in user.                                                                                                 |
+| **_Admin Panel_**    | Contain sections to manage stores's products (create, update, delete and list them).                                                             |
 
 ## Tech Stack
 
@@ -69,8 +48,9 @@ It showcases practical implementation of Laravel features including routing, con
     composer install
     ```
 
-    > Make sure you have ***PHP (>=8.1)*** and composer installed
+    > Make sure you have **_PHP (>=8.1)_** and composer installed
     > If not installed, you can see link bellow for install:
+    >
     > - [PHP - Instalation and Configuration](https://www.php.net/manual/en/install.php)
     > - [Download Composer](https://getcomposer.org/download/)
 
