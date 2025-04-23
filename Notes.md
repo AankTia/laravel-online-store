@@ -352,10 +352,34 @@ To use Laravel Tinker, in the terminal go to the prohect directory, and execute 
 php artisan tinker
 ```
 
-
 ---
 
 ## Chapter 23 – AdminAuthMiddleware
+
+### Laravel Middleware
+
+Laravel moddleware provides a convenient mechanism for inspecting adn filtering HTTP request entering your application.
+
+For example, Laravel includes a middleware that verifies your application's user is authenticated. If the user is not authenticated, the middleware will redirect the user to your application's logi screen. However. id the user is authenticated. the middleware will alow the request to proceed further into the application. Additional middleware can be written to perform a setof tasks besides authentication. For example, a logging middleware mogh log all incoming request to your application
+
+To create a new middleware, in the Terminal, go to the project directory, and execute:
+
+```bash
+php artisan make:middleware MiddlewareName
+```
+
+For example, create a middleware to verify that only admin users:
+
+```bash
+php artisan make:middleware AdminAuthMiddleware
+```
+
+After created middleware, we will need to register middleware in our application's.
+
+[Laravel 12 - Registerig Middleware](https://laravel.com/docs/12.x/middleware#registering-middleware)
+
+
+---
 
 ## Chapter 24 – Introduction to Web Session
 
