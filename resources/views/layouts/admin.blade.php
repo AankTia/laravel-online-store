@@ -38,7 +38,7 @@
         {{-- end sidebar --}}
 
         <div class="col content-grey">
-            <nav class="p-3 shadow next-end">
+            <nav class="p-3 shadow text-end">
                 <span class="profile-font">Admin</span>
                 <img class="img-profile rounded-circle" src="{{ asset('/img/undraw_profile.svg') }}" alt="">
             </nav>
