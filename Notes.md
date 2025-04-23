@@ -264,11 +264,35 @@ php artisan make:model Product
 
 ## Chapter 15 – Admin Panel
 
+...
+
+---
+
 ## Chapter 16 – List Products in Admin Panel
+
+...
+
+---
 
 ## Chapter 17 – Create Products
 
+...
+
+---
+
 ## Chapter 18 – Create Products with Images
+
+### Laravel `Storage`
+
+Laravel provides a class called _Storage_. This class contains a set of methods which allow creating, deleting, and moving files and directories. It also defining the kind of disk we want interact with (i.e., local disk or Amazon S3)
+
+To make file accessible from the web, we must create a _symbolic link_ from `public/storage` to `storage/app/public`, with execute:
+
+```bash
+php artisan storage:link
+```
+
+---
 
 ## Chapter 19 – Edit and Delete Products
 
