@@ -342,6 +342,19 @@ php artisan ui bootstrap --auth
 
 ## Chapter 22 – Refactoring User
 
+### Laravel Tinker
+
+Laravel **_Tinker_** is a REPL (Read-Eval-Print Loop) for the Laravel framework. Tinker allows you to interact with your Laravel application on the command line.
+
+To use Laravel Tinker, in the terminal go to the prohect directory, and execute the following:
+
+```bash
+php artisan tinker
+```
+
+
+---
+
 ## Chapter 23 – AdminAuthMiddleware
 
 ## Chapter 24 – Introduction to Web Session
