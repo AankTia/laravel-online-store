@@ -407,6 +407,10 @@ After created middleware, we will need to register middleware in our application
 
 ## Chapter 28 – Orders Page
 
+...
+
+---
+
 ## Chapter 29 – Deploying to the Cloud – Clever-Cloud – MySQL Database
 
 ## Chapter 30 – Deploying to the Cloud – Heroku – Laravel Application
