@@ -22,6 +22,19 @@
                     <a class="nav-link active" href="{{ route('home.index') }}">Home</a>
                     <a class="nav-link active" href="{{ route('product.index') }}">Products</a>
                     <a class="nav-link active" href="{{ route('home.about') }}">About</a>
+
+                    <div class="vr bg-white mx-2 d-none d-lg-block"></div>
+                    @guest
+                        <a href="{{ route('login') }}" class="nav-link active">Login</a>
+                        <a href="{{ route('register') }}" class="nav-link active">Register</a>   
+                    @else
+                    <form action="{{ route('logout') }}" method="POST" id="logout">
+                        @csrf
+                        <a role="button" class="nav-link active" onclick="document.getElementById('logout').submit();">
+                            Logout
+                        </a>
+                    </form>
+                    @endguest
                 </div>
             </div>
         </div>

@@ -308,6 +308,38 @@ php artisan storage:link
 
 ## Chapter 21 – Login System
 
+### Laravel Authentication System
+
+Laravel `6.*` and `7.0` provided an oficial authentication system called _[laravel/ui](https://laravel.com/docs/7.x/authentication)_. `laravel_ui` is a straighforward authentication system build on the Boostrap CSS framework. This library wa created by Y=Taylor Otwell (the creator of Laravel). Later, thhis library provided support to create an authentication system with Vue and React. However, `laravel_ui` is no longer the official authentication system for Laravel `8.*` and `9.*`.
+
+Laravel `9.*` have three official authentication system:
+
+- **Breese**
+
+    Is a simple authentication system based on Blade template style with Tailwind CSS.
+
+- **Breeze & Inertia**
+
+    Breeze also offers an `Inertia.js` frontend implemented powered by Vue or React.
+
+- **Jetstream**
+
+    Augments functionalities with more robust features and additional frontend technology stacks. Jetsream designed using Tailwind CDD and offers your choice of Livewire or Inertia.js driven frontend scaffolding
+
+### Installing `laravel/ui`
+
+```bash
+composer require laravel/ui
+```
+
+We also need to generate the frontent scaffolding and the login system, with command:
+
+```bash
+php artisan ui bootstrap --auth
+```
+
+---
+
 ## Chapter 22 – Refactoring User
 
 ## Chapter 23 – AdminAuthMiddleware
