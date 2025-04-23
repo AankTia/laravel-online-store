@@ -413,6 +413,9 @@ The use Eloquent relationship has a silent cost. The related models are **_lazy 
 
 Fortunetaly, Eloquent can reduce the number of queries and **_eager load_** relationships using the `with` method.
 
+### Debugging our application queries
+
+**_[Laravel Debugbar](https://github.com/barryvdh/laravel-debugbar)_** library allows us to debug aur Laravel application
 ---
 
 ## Chapter 29 – Deploying to the Cloud – Clever-Cloud – MySQL Database
