@@ -1,8 +1,7 @@
-# Laravel Online Store
+[![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff)](https://www.linkedin.com/in/tia-septiana-widi/)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white)](mailto:tia.septianawidi@gmail.com)
 
-<!-- ![License](https://img.shields.io/github/license/AankTia/laravel-online-store) -->
-<!-- ![Stars](https://img.shields.io/github/stars/AankTia/laravel-online-store) -->
-<!-- ![Forks](https://img.shields.io/github/forks/AankTia/laravel-online-store) -->
+# Laravel Online Store
 
 Web application where users place orders to buy products with Laravel, contains hands-on projects and exercises completed while studying **_[Practical Laravel – Develop Clean MVC Web Applications (Daniel Correa & Paola Vallejo)](https://www.amazon.com/Practical-Laravel-Develop-clean-applications/dp/B09S69MHRB)_**.
 
